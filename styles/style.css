@@ -9,18 +9,25 @@
 
 
 body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 0;
     padding: 0;
     background: var(--roxo--background);
     font-family: var(--font--principal);
+    width: 100vw;
+    height: 100vh;
 }
 
 .container {
+    width: 390px;
+    height: 844px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    margin-top: 25%;
+
 }
 
 h1 {
@@ -93,12 +100,18 @@ label {
 .botao-entrar {
     padding: 17px 0 17px 0px;
     margin-top: 27px;
-    width: 100%;
+    width: 20rem;
     text-transform: uppercase;
     color: var(--branco);
     background: var(--roxo--botao);
     border: none;
     border-radius: 12px;
+}
+
+.botao-entrar:hover {
+    background: #bf40bf;
+    cursor: pointer;
+
 }
 
 .container__quebra {
@@ -157,7 +170,7 @@ label {
 .footer {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-top: 15px;
     width: 48%;
 }
