@@ -51,6 +51,12 @@ h1 {
 
 }
 
+.container__placeholder:hover {
+    background: #f5f5f5;
+
+
+}
+
 input::placeholder {
     font-size: 20px;
 
