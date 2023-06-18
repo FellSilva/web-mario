@@ -1,7 +1,7 @@
 <h1>Descrição do Projeto</h1>
 Este repositório contém uma página desenvolvida utilizando HTML, CSS e JavaScript para representar a interface de um aplicativo móvel. Essa página foi criada como parte de um projeto na disciplina de Desenvolvimento Web da Fatec Cotia.
 
-Pré-requisitos
+<h2>Pré-requisitos</h2>
 Antes de executar o projeto, é necessário ter um navegador da web instalado no seu computador para visualizar a página. Recomendamos a utilização de navegadores modernos, como o Google Chrome, Mozilla Firefox ou Microsoft Edge.
 
 Instruções de Uso
