@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap');
+
+:root {
+    --roxo--background: #1E265D;
+    --roxo--botao: rgba(139, 0, 255, 1);
+
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* font-family: 'IBM Plex Sans', sans-serif; */
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    width: 100vm;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--roxo--background);
+}
+header{
+    padding: 20px;
+}
+
+.voltar{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+main{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+main h1{
+    color: white;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background: white;
+    border-radius: 20px;
+    width: 90%;
+    padding: 15px 30px;
+}
+.texto p{
+    line-height: 1.5;
+}
+.texto button {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: white;
+    background-color: #8B00FF;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#botao{
+    align-self: last baseline;
+}
+
